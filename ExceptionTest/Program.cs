@@ -12,6 +12,8 @@ namespace ExceptionTest
                 Console.WriteLine($"Numero inserido: {i}" );
             }catch(Exception){
 
+            }finally{
+                Console.WriteLine("obrigado");
             }
         }
     }
